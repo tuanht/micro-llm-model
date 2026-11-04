@@ -1,6 +1,6 @@
 # Micro LLM (ROCm / RX 6800 XT) Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans (recommended: tasks share interfaces tightly) or superpowers:subagent-driven-development to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** A ~30M-parameter Llama-style GPT, trained on TinyStories on a Linux RX 6800 XT with ROCm, producing a checkpoint that also generates text on a Mac.
 
